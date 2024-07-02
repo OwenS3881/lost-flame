@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EvilPlayer
+  m_Controller: {fileID: 9100000, guid: 833e49d502ccb3e47a15d13ed4ea74f4, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: de98f1129a820204e8349d61674c6b48, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b8d425646b1c18f44b6f2c087e1869b1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: acf0f8426ead84d44bef251da7bd02a1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3b9664a46d711f44f84ad794db7d4493, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 29ce19f7d8e611e419eb7abf61aac625, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6ba4490459df39149bbf0d470e0e0743, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a2d4eb3a0a732ae43897bc8e6197a028, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bdeb8ce9c6858bf46b1d29efaf74472c, type: 2}

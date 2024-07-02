@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RockEnemy
+  m_Controller: {fileID: 9100000, guid: 833e49d502ccb3e47a15d13ed4ea74f4, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: a2d4eb3a0a732ae43897bc8e6197a028, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 834e1ea351b6899479fcfb62af6e31f2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: de98f1129a820204e8349d61674c6b48, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 396cf7255fe61e64797da8e486b3b99f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: acf0f8426ead84d44bef251da7bd02a1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 146a2e3f8d0cb7948b854c78118235c6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 29ce19f7d8e611e419eb7abf61aac625, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f2520065f949f894a893b844b1a5ee0d, type: 2}

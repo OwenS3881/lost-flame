@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FireSwordEnemy
+  m_Controller: {fileID: 9100000, guid: 833e49d502ccb3e47a15d13ed4ea74f4, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: de98f1129a820204e8349d61674c6b48, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1300f5b42d19fcd419165a5e6fa8eecf, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: acf0f8426ead84d44bef251da7bd02a1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8ff3f10e8217d6045b6cad40cc8be790, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 29ce19f7d8e611e419eb7abf61aac625, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 62c798e49b313624c9305c5e5a3a4039, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a2d4eb3a0a732ae43897bc8e6197a028, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: eddaaf99707ef0142ab7e42df390ec57, type: 2}

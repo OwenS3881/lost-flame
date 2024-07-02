@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5416397568833434984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7048145976764943710}
+  - component: {fileID: 5394717205055717105}
+  m_Layer: 0
+  m_Name: RoomDecoratorSingleton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7048145976764943710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5416397568833434984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5394717205055717105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5416397568833434984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347d96ef1ee30e24897d2bfbeb274c74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomDecorators:
+  - objectsToSpawn:
+    - {fileID: 1743844610664385367, guid: 9610609d189499a459966ec4748524ee, type: 3}
+    - {fileID: 8337418321565579382, guid: 590a95362415a0a40afc7f6197ecd0dd, type: 3}
+    - {fileID: 1743844610664385367, guid: fb16712447f44584ebd26895d6e5b90b, type: 3}
+    - {fileID: 1743844610664385367, guid: f24a20840b904084ea77ecf905eabe7c, type: 3}
+    - {fileID: 1743844610664385367, guid: 34586c4f5af372444ab26dc2631aba40, type: 3}
+    - {fileID: 1743844610664385367, guid: 72567dcc030ffb74789352631fef1e98, type: 3}
+    objectsToSpawnRange:
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 2, y: 2}
+    - {x: 2, y: 2}
+    - {x: 3, y: 5}
+    - {x: 3, y: 5}
+    numebrOfObjectsToSpawn: 2
+    spawnRadius: 0.01
+    canFlipX: 1
+    sizeDifference: {x: -0.25, y: 0.25}
+  - objectsToSpawn:
+    - {fileID: 4264880213822451904, guid: 1c7b0e2cb4213fe46b90a9918f01c456, type: 3}
+    - {fileID: 8330497500196383411, guid: a13c9ecfdc844474fb73d82e5383250a, type: 3}
+    - {fileID: 3804284563081412604, guid: d3497812d81766c43a593a4db4eedd87, type: 3}
+    - {fileID: 2481464533758641201, guid: cbcabdc952ec0ee479f831e5e89db9e3, type: 3}
+    - {fileID: 8776099788554089271, guid: 3130ff8de5636b74e9f080b949e5ea98, type: 3}
+    - {fileID: 2481464533758641201, guid: 2de95e78ed60cc148ad21a6e1aa484c0, type: 3}
+    - {fileID: 2481464533758641201, guid: 12e7bbf12ef2d1749a826e1b017d27bc, type: 3}
+    - {fileID: 4264880213822451904, guid: ee0ad6d1c9b576144910ea3cf61dec43, type: 3}
+    - {fileID: 8330497500196383411, guid: e62fd2d05ca04d54fa5f2c9fa75decc3, type: 3}
+    - {fileID: 3804284563081412604, guid: a86023e0af3276f43a432a1c4aea03d7, type: 3}
+    - {fileID: 4264880213822451904, guid: e3945e4329274e7458c3bc3a469759e7, type: 3}
+    - {fileID: 8330497500196383411, guid: bc640ac95a436fb4384b411ac2eedb1f, type: 3}
+    - {fileID: 3804284563081412604, guid: 5a50e35cb5c34644993cea9fc594a46d, type: 3}
+    objectsToSpawnRange:
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 2, y: 2}
+    - {x: 2, y: 2}
+    - {x: 2, y: 2}
+    - {x: 2, y: 2}
+    - {x: 2, y: 2}
+    - {x: 3, y: 5}
+    - {x: 3, y: 5}
+    - {x: 3, y: 5}
+    numebrOfObjectsToSpawn: 0
+    spawnRadius: 0
+    canFlipX: 1
+    sizeDifference: {x: -0.25, y: 0.25}
+  enemySpawnDatas:
+  - name: Enemy1
+    enemy: {fileID: 11400000, guid: 6536a106f3af9ef4ab124c6e45e544be, type: 2}
+    probability: 56
+    dungeonRankRanges:
+    - {x: 1, y: 1}
+    - {x: 3, y: 5}
+  - name: Enemy2
+    enemy: {fileID: 11400000, guid: e9e4049d74e4dc04bb73a6312abd1ecb, type: 2}
+    probability: 59
+    dungeonRankRanges:
+    - {x: 1, y: 1}
+    - {x: 3, y: 5}
+  - name: RockEnemy
+    enemy: {fileID: 11400000, guid: fad7629ecd0cbaa448560f8dc114dd2b, type: 2}
+    probability: 22
+    dungeonRankRanges:
+    - {x: 1, y: 1}
+  - name: StarEnemy
+    enemy: {fileID: 11400000, guid: 6ddacaceaf1c5094a9362d04a795d77f, type: 2}
+    probability: 5
+    dungeonRankRanges:
+    - {x: 1, y: 5}
+  - name: NeckEnemy
+    enemy: {fileID: 11400000, guid: ee91a8394a5cc7149ad028198f54595a, type: 2}
+    probability: 18
+    dungeonRankRanges:
+    - {x: 2, y: 2}
+  - name: ArmySeed
+    enemy: {fileID: 11400000, guid: 5039099472297634090c8f6a1d277f10, type: 2}
+    probability: 52
+    dungeonRankRanges:
+    - {x: 1, y: 1}
+  - name: EyeballEnemy
+    enemy: {fileID: 11400000, guid: 912a66e32745c0b4e983e4c2e4967d36, type: 2}
+    probability: 22
+    dungeonRankRanges:
+    - {x: 1, y: 1}
+    - {x: 3, y: 5}
+  - name: MultiShotEnemy
+    enemy: {fileID: 11400000, guid: d754457936e2b4542be2ebf9e4b1a305, type: 2}
+    probability: 17
+    dungeonRankRanges:
+    - {x: 1, y: 2}
+  - name: GhostEnemy
+    enemy: {fileID: 11400000, guid: 8a914e410250f754898227beb8dccb42, type: 2}
+    probability: 32
+    dungeonRankRanges:
+    - {x: 2, y: 2}
+  - name: FireEnemy
+    enemy: {fileID: 11400000, guid: aa75a144c4139bd4daa84aef1347cf82, type: 2}
+    probability: 13
+    dungeonRankRanges:
+    - {x: 3, y: 5}
+  - name: PurpleDrop
+    enemy: {fileID: 11400000, guid: 69f7ddb8055438e4ba32b3319a5b4b63, type: 2}
+    probability: 9
+    dungeonRankRanges:
+    - {x: 2, y: 2}
+  - name: RamEnemy
+    enemy: {fileID: 11400000, guid: 44b676a567b3e454686516d8e6fbd964, type: 2}
+    probability: 34
+    dungeonRankRanges:
+    - {x: 2, y: 2}
+  - name: EvilPlayer
+    enemy: {fileID: 11400000, guid: 5821402dcaae3964b8c488c6f38645e5, type: 2}
+    probability: 21
+    dungeonRankRanges:
+    - {x: 2, y: 2}
+  - name: TowerEnemy
+    enemy: {fileID: 11400000, guid: f7a61a0fc0fdce045916d584d94554d1, type: 2}
+    probability: 15
+    dungeonRankRanges:
+    - {x: 3, y: 5}
+  minDistanceBetweenEnemies: 2
+  peacefulProbability: 10
+  numberOfFloors: 3

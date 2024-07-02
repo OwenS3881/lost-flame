@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ced7e1de9f83dc4cbff8738368b5e17, type: 3}
+  m_Name: CrystalBossProjectile
+  m_EditorClassIdentifier: 
+  power: 10
+  playerPowerUpgrades: 
+  attacker: 1
+  graphicsObject: {fileID: 3094255767541243873, guid: f8c2dfc38e286f5488fc3cad0bc389e7, type: 3}
+  attackType: 5
+  uiObjects: []
+  attackObject: {fileID: 8613814867661932828, guid: ea2d8c303ed520740997c3dde3ee86b0, type: 3}
+  cooldown: 0
+  playerCooldownUpgrades: []
+  attackStartDelay: 0.25
+  speed: 15
+  knockback: 2.5
+  deathEffect: {fileID: 3294579746855561844, guid: 424371128f2d17d419706ed58f38a034, type: 3}
+  spawnEffect: {fileID: 0}
+  projectile: {fileID: 5318863188790235861, guid: f557853744977d34dacd7a032bd11f29, type: 3}

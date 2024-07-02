@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09910043f0e31bb4f81387b0964bff07, type: 3}
+  m_Name: TowerEnemy
+  m_EditorClassIdentifier: 
+  speed: 0
+  baseHealth: 75
+  baseAttack: 25
+  baseDefense: 58
+  baseStatAverage: 52.666668
+  adjustedBaseHealth: 0
+  adjustedBaseAttack: 0
+  adjustedBaseDefense: 0
+  graphicsObject: {fileID: 686557688179957359, guid: 2b12d9dafffa1bc4faa02cc4507d2f3e, type: 3}
+  characterType: 1
+  attackSO: {fileID: 11400000, guid: cd123ee08a276b24990d6dffff8a45ae, type: 2}
+  healthBar: {fileID: 2357814357123811328, guid: 2ee3ac59648b9a244bf0bb28df4f79db, type: 3}
+  deathEffect: {fileID: 3294579746855561844, guid: 6d2ea02f770cc7f45b22aa6a31c35738, type: 3}
+  enemyScript: {fileID: 8252107448561510564, guid: 26895ff977f87cb4fb3b76451a6c1cc4, type: 3}
+  flipDeathEffect: 0
+  baseExperienceYield: 30
+  experienceParticle: {fileID: 478923947973337864, guid: 8a0c1280e877d22488af3ed45d540fdd, type: 3}
+  numberOfExperienceParticles: {x: 3, y: 5}
+  statPickups:
+  - {fileID: 8463092124027960627, guid: 32cec5f882b8e78478ea64bffbee8f4d, type: 3}
+  statPickupProbability: 14.6
+  maxStatPickups: 5
+  noticeEffect: {fileID: 7002290527278360730, guid: c98794509385724478360aed0fc567e1, type: 3}
+  playerNoticeDistance: 4
+  lossInterestDistance: 8
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  noticeRange: 360

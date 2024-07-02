@@ -1,0 +1,483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &771762082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 771762083}
+  - component: {fileID: 1128930299195031006}
+  m_Layer: 0
+  m_Name: LayoutGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &771762083
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771762082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2674286475404034247}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1128930299195031006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771762082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 100
+    m_Right: 100
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 125, y: 125}
+  m_Spacing: {x: 200, y: 125}
+  m_Constraint: 0
+  m_ConstraintCount: 2
+--- !u!1 &1612742742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1612742743}
+  - component: {fileID: 1612742745}
+  - component: {fileID: 1612742744}
+  m_Layer: 0
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1612742743
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612742742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2674286475404034247}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1612742745
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612742742}
+  m_CullTransparentMesh: 1
+--- !u!114 &1612742744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612742742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.5803922}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &7121568779918234260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2905325848347116880}
+  - component: {fileID: 6740723410602674068}
+  m_Layer: 0
+  m_Name: EndDungeonManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2905325848347116880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7121568779918234260}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2674286475404034247}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6740723410602674068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7121568779918234260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 044fb9abc0fd6af4fbac76136c3ff3f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dungeonLevel: 1
+  endDungeonItemPrefab: {fileID: 7540404403913301868, guid: d52cffaf0c295c4429b27e81664d447c, type: 3}
+  itemCanvas: {fileID: 8369028790547378350}
+  itemSpawnParent: {fileID: 771762083}
+  itemsToSpawn: 4
+  items:
+  - type: 0
+    disabled: 0
+    title: Sword Attack
+    titleColor: {r: 0, g: 1, b: 0.86242104, a: 1}
+    buttonSprite: {fileID: 21300000, guid: 7da197a30156a2542b86a401bde358c5, type: 3}
+    buttonSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+    buttonSpriteRotation: -30
+    buttonImageDimensions: {x: 300, y: 300}
+    sliceColor: {r: 0, g: 1, b: 0.8627451, a: 1}
+    probability: 20
+    skillUnlockId: 
+    attack: {fileID: 11400000, guid: 10f960364cf060c46a7d476e635cb49a, type: 2}
+    abilityUnlockId: 
+    statType: 4
+    statBoost: 0
+  - type: 0
+    disabled: 0
+    title: Dash Attack
+    titleColor: {r: 1, g: 0.5240722, b: 0, a: 1}
+    buttonSprite: {fileID: 21300000, guid: 83925da2541c7174f99531caf467e1ee, type: 3}
+    buttonSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+    buttonSpriteRotation: 0
+    buttonImageDimensions: {x: 100, y: 100}
+    sliceColor: {r: 1, g: 0.5254902, b: 0, a: 1}
+    probability: 36
+    skillUnlockId: dashUnlock
+    attack: {fileID: 11400000, guid: a3762aba5f559d743b6ad29f5f29fdac, type: 2}
+    abilityUnlockId: 
+    statType: 4
+    statBoost: 0
+  - type: 0
+    disabled: 0
+    title: Ranged Attack
+    titleColor: {r: 0, g: 1, b: 0.8627451, a: 1}
+    buttonSprite: {fileID: 21300000, guid: 279beeb5cf7b13d42af4314324680a10, type: 3}
+    buttonSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+    buttonSpriteRotation: 15
+    buttonImageDimensions: {x: 125, y: 125}
+    sliceColor: {r: 0, g: 1, b: 0.8627451, a: 1}
+    probability: 41
+    skillUnlockId: projectileUnlock
+    attack: {fileID: 11400000, guid: 716afe3896a69434783f6c4de2d0aa4b, type: 2}
+    abilityUnlockId: 
+    statType: 4
+    statBoost: 0
+  - type: 2
+    disabled: 1
+    title: Mini Map
+    titleColor: {r: 0, g: 1, b: 0.060289383, a: 1}
+    buttonSprite: {fileID: 21300000, guid: 746beda3b2f51d144aa10de109c16afd, type: 3}
+    buttonSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+    buttonSpriteRotation: 0
+    buttonImageDimensions: {x: 300, y: 300}
+    sliceColor: {r: 0, g: 1, b: 0.0627451, a: 1}
+    probability: 41
+    skillUnlockId: map1
+    attack: {fileID: 0}
+    abilityUnlockId: map
+    statType: 4
+    statBoost: 0
+  - type: 2
+    disabled: 0
+    title: Heal Ability
+    titleColor: {r: 0, g: 1, b: 0.060289383, a: 1}
+    buttonSprite: {fileID: 21300000, guid: daa9dff392128c340869d5032dc7a7d3, type: 3}
+    buttonSpriteColor: {r: 0, g: 1, b: 0, a: 1}
+    buttonSpriteRotation: 0
+    buttonImageDimensions: {x: 75, y: 75}
+    sliceColor: {r: 0, g: 1, b: 0.0627451, a: 1}
+    probability: 41
+    skillUnlockId: healUnlock
+    attack: {fileID: 0}
+    abilityUnlockId: heal
+    statType: 4
+    statBoost: 0
+  - type: 3
+    disabled: 0
+    title: Attack Up
+    titleColor: {r: 1, g: 0.7404192, b: 0, a: 1}
+    buttonSprite: {fileID: 21300000, guid: c09db3f1975ae274b9b5c9b18ffadd17, type: 3}
+    buttonSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+    buttonSpriteRotation: -30
+    buttonImageDimensions: {x: 150, y: 150}
+    sliceColor: {r: 1, g: 0.7411765, b: 0, a: 1}
+    probability: 32
+    skillUnlockId: 
+    attack: {fileID: 0}
+    abilityUnlockId: 
+    statType: 0
+    statBoost: 5
+  - type: 3
+    disabled: 0
+    title: Defense Up
+    titleColor: {r: 1, g: 1, b: 1, a: 1}
+    buttonSprite: {fileID: 21300000, guid: 8197e8065d493344ebca7d867f8235b1, type: 3}
+    buttonSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+    buttonSpriteRotation: 0
+    buttonImageDimensions: {x: 150, y: 150}
+    sliceColor: {r: 0.41568628, g: 0.41568628, b: 0.41568628, a: 1}
+    probability: 23
+    skillUnlockId: 
+    attack: {fileID: 0}
+    abilityUnlockId: 
+    statType: 1
+    statBoost: 5
+  - type: 3
+    disabled: 0
+    title: Full Heal
+    titleColor: {r: 1, g: 0, b: 0, a: 1}
+    buttonSprite: {fileID: 21300000, guid: 26653b3bfc7520e41835e8df5096a049, type: 3}
+    buttonSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+    buttonSpriteRotation: 0
+    buttonImageDimensions: {x: 150, y: 150}
+    sliceColor: {r: 1, g: 0, b: 0, a: 1}
+    probability: 28
+    skillUnlockId: 
+    attack: {fileID: 0}
+    abilityUnlockId: 
+    statType: 2
+    statBoost: 100
+  - type: 2
+    disabled: 0
+    title: Shockwave Ability
+    titleColor: {r: 0, g: 1, b: 0.8627451, a: 1}
+    buttonSprite: {fileID: 21300000, guid: 1889be62ec5fa63419b573c8d68209b0, type: 3}
+    buttonSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+    buttonSpriteRotation: 0
+    buttonImageDimensions: {x: 125, y: 125}
+    sliceColor: {r: 0, g: 1, b: 0.8627451, a: 1}
+    probability: 41
+    skillUnlockId: shockwaveUnlock
+    attack: {fileID: 0}
+    abilityUnlockId: shockwave
+    statType: 4
+    statBoost: 0
+  - type: 3
+    disabled: 0
+    title: Speed Boost
+    titleColor: {r: 0.7264151, g: 0.4090476, b: 0.15419191, a: 1}
+    buttonSprite: {fileID: 21300000, guid: cc1b63c4cea02e843bd59e8d19b436d8, type: 3}
+    buttonSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+    buttonSpriteRotation: 0
+    buttonImageDimensions: {x: 175, y: 175}
+    sliceColor: {r: 0.8705883, g: 0.7294118, b: 0.18431373, a: 1}
+    probability: 34
+    skillUnlockId: 
+    attack: {fileID: 0}
+    abilityUnlockId: 
+    statType: 3
+    statBoost: 25
+  - type: 0
+    disabled: 0
+    title: Boomerang Attack
+    titleColor: {r: 0, g: 1, b: 0.8627451, a: 1}
+    buttonSprite: {fileID: 21300000, guid: e7bfe9cd25a9afe469904672812a9e58, type: 3}
+    buttonSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+    buttonSpriteRotation: 25
+    buttonImageDimensions: {x: 300, y: 300}
+    sliceColor: {r: 0, g: 1, b: 0.8627451, a: 1}
+    probability: 29
+    skillUnlockId: boomerangUnlock
+    attack: {fileID: 11400000, guid: 7ae3542db02d3e94ba54259577b799df, type: 2}
+    abilityUnlockId: 
+    statType: 4
+    statBoost: 0
+  attackToGive: {fileID: 0}
+  defaultAttack: {fileID: 11400000, guid: 10f960364cf060c46a7d476e635cb49a, type: 2}
+  dungeonRankStatNames:
+  - Levels Completed
+  - Enemies Killed
+  - Pickups Collected
+  - Chests Opened
+  dungeonRankStatWeights:
+  - 100
+  - 10
+  - 1
+  - 5
+  abilityNames:
+  - map
+  - heal
+  - shockwave
+  potentialBossFloorRange: {x: 4, y: 7}
+  bossBattleSceneNames:
+  - CrystalBossScene
+  - XeroBossScene
+  - SpikeBossScene
+  bossBattleTransitionNames:
+  - CrystalBoss
+  - XeroBoss
+  - SpikeBoss
+  validLevelScenes:
+  - MainLevel
+  - CrystalBossScene
+  - XeroBossScene
+  - SpikeBossScene
+--- !u!1 &8369028790547378350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2674286475404034247}
+  - component: {fileID: 3529399193789036015}
+  - component: {fileID: 4813595336927458066}
+  - component: {fileID: 8150059624526917837}
+  m_Layer: 0
+  m_Name: ItemCanvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2674286475404034247
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8369028790547378350}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1612742743}
+  - {fileID: 771762083}
+  m_Father: {fileID: 2905325848347116880}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &3529399193789036015
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8369028790547378350}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 2
+  m_TargetDisplay: 0
+--- !u!114 &4813595336927458066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8369028790547378350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1600, y: 900}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0.5
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!114 &8150059624526917837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8369028790547378350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295

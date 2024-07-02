@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FireSwordMelee
+  m_Controller: {fileID: 9100000, guid: 8e36ad2e47f822d49bd613dab22748ff, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 5501def1584d4d941bdcac9f5352e34f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4b447d9ec5d2b0f4aadb97eaff902f92, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b6d4cd4505e79f044a7318eb35402721, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6a8c158f40ae4224ba7859d2dd145546, type: 2}

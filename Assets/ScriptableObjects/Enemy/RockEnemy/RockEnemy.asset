@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc34aae6dc60f834db2deb84b09e6c34, type: 3}
+  m_Name: RockEnemy
+  m_EditorClassIdentifier: 
+  speed: 1.5
+  baseHealth: 25
+  baseAttack: 42
+  baseDefense: 26
+  baseStatAverage: 31
+  adjustedBaseHealth: 25
+  adjustedBaseAttack: 42
+  adjustedBaseDefense: 26
+  graphicsObject: {fileID: 7264703158483205774, guid: 4a38193807562fa44ab2d6c6fb3e555d, type: 3}
+  characterType: 1
+  attackSO: {fileID: 11400000, guid: 0e692fa104f918b48bbe47a006d46674, type: 2}
+  healthBar: {fileID: 2357814357123811328, guid: 2ee3ac59648b9a244bf0bb28df4f79db, type: 3}
+  deathEffect: {fileID: 596773834969007823, guid: b5e4846e5d70cd2449ef24ea6b5ab60f, type: 3}
+  enemyScript: {fileID: 3899045021536967661, guid: eb50d79cea0e0294f947d1701dcdb01d, type: 3}
+  flipDeathEffect: 1
+  baseExperienceYield: 80
+  experienceParticle: {fileID: 478923947973337864, guid: 8a0c1280e877d22488af3ed45d540fdd, type: 3}
+  numberOfExperienceParticles: {x: 3, y: 5}
+  statPickups:
+  - {fileID: 8463092124027960627, guid: 32cec5f882b8e78478ea64bffbee8f4d, type: 3}
+  statPickupProbability: 19.9
+  maxStatPickups: 3
+  stopMovingDistance: 1
+  playerNoticeDistance: 4
+  lossInterestDistance: 8
+  nextWaypointDistance: 1
+  pathUpdateRate: 0.1
+  idleSpeed: 0.25
+  idleAnimSpeed: 0.25
+  moveAnimSpeed: 1.5
+  noticeEffect: {fileID: 7002290527278360730, guid: c98794509385724478360aed0fc567e1, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  noticeRange: 360

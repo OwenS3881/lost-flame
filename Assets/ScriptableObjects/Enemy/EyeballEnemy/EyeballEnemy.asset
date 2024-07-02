@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc34aae6dc60f834db2deb84b09e6c34, type: 3}
+  m_Name: EyeballEnemy
+  m_EditorClassIdentifier: 
+  speed: 1
+  baseHealth: 36
+  baseAttack: 107
+  baseDefense: 31
+  baseStatAverage: 58
+  adjustedBaseHealth: 36
+  adjustedBaseAttack: 107
+  adjustedBaseDefense: 31
+  graphicsObject: {fileID: 5908560275610703924, guid: 7dc55f1a0a8c4d54a97cd75e893123f3, type: 3}
+  characterType: 1
+  attackSO: {fileID: 11400000, guid: 5518b65aac4dbd94a891d5af3b6f45cd, type: 2}
+  healthBar: {fileID: 2357814357123811328, guid: 2ee3ac59648b9a244bf0bb28df4f79db, type: 3}
+  deathEffect: {fileID: 760169280384953256, guid: 146cd6a81b2c6b6419a82e38cc255f61, type: 3}
+  enemyScript: {fileID: 3899045021536967661, guid: eb50d79cea0e0294f947d1701dcdb01d, type: 3}
+  flipDeathEffect: 1
+  baseExperienceYield: 75
+  experienceParticle: {fileID: 478923947973337864, guid: 8a0c1280e877d22488af3ed45d540fdd, type: 3}
+  numberOfExperienceParticles: {x: 3, y: 5}
+  statPickups:
+  - {fileID: 8463092124027960627, guid: 32cec5f882b8e78478ea64bffbee8f4d, type: 3}
+  statPickupProbability: 24
+  maxStatPickups: 3
+  stopMovingDistance: 3
+  playerNoticeDistance: 5
+  lossInterestDistance: 9
+  nextWaypointDistance: 1
+  pathUpdateRate: 0.1
+  idleSpeed: 0.25
+  idleAnimSpeed: 0.25
+  moveAnimSpeed: 1
+  noticeEffect: {fileID: 7002290527278360730, guid: c98794509385724478360aed0fc567e1, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  noticeRange: 360

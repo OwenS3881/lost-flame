@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09910043f0e31bb4f81387b0964bff07, type: 3}
+  m_Name: NeckEnemy
+  m_EditorClassIdentifier: 
+  speed: 0
+  baseHealth: 43
+  baseAttack: 76
+  baseDefense: 71
+  baseStatAverage: 63.333332
+  adjustedBaseHealth: 43
+  adjustedBaseAttack: 76
+  adjustedBaseDefense: 71
+  graphicsObject: {fileID: 1158354125666945453, guid: 78d60518153e15646903bf323f1e26fd, type: 3}
+  characterType: 1
+  attackSO: {fileID: 11400000, guid: 04bc623324cf0a647bbbb1dabe6ac6dc, type: 2}
+  healthBar: {fileID: 2357814357123811328, guid: 2ee3ac59648b9a244bf0bb28df4f79db, type: 3}
+  deathEffect: {fileID: 7831198668117281179, guid: 018c351412fe1104db4abc9d05b870aa, type: 3}
+  enemyScript: {fileID: 8252107448561510564, guid: 26895ff977f87cb4fb3b76451a6c1cc4, type: 3}
+  flipDeathEffect: 0
+  baseExperienceYield: 55
+  experienceParticle: {fileID: 478923947973337864, guid: 8a0c1280e877d22488af3ed45d540fdd, type: 3}
+  numberOfExperienceParticles: {x: 3, y: 5}
+  statPickups:
+  - {fileID: 8463092124027960627, guid: 32cec5f882b8e78478ea64bffbee8f4d, type: 3}
+  statPickupProbability: 9.2
+  maxStatPickups: 4
+  noticeEffect: {fileID: 7002290527278360730, guid: c98794509385724478360aed0fc567e1, type: 3}
+  playerNoticeDistance: 4
+  lossInterestDistance: 8
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  noticeRange: 360

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272940a559395aa46998a0839661c5e0, type: 3}
+  m_Name: RockAttack
+  m_EditorClassIdentifier: 
+  power: 30
+  playerPowerUpgrades: 
+  attacker: 1
+  graphicsObject: {fileID: 1208393041246430560, guid: 4f1dd9686388d4345be9d98dbf89dc7a, type: 3}
+  attackType: 4
+  uiObjects: []
+  attackObject: {fileID: 2367907014085525671, guid: b0cf2098f47409a4f85af99239e024c0, type: 3}
+  cooldown: 2
+  playerCooldownUpgrades: []
+  attackStartDelay: 0
+  knockback: 5
+  hitEffect: {fileID: 0}
+  sizeUpgrades: []

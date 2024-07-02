@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: XeroGate
+  m_Controller: {fileID: 9100000, guid: dcd62c5b238aefa49a062123a73dde71, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 7ad38fb412ae7794e90f9f016ae5a123, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3bceb2fc3fa5c1346a4b7564a562aa92, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: da4fa31cacfb76f44a599e0585392a7b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 30dd874999a52084daadf1772277125a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c57b6af84acd99f479d454a0d64d0957, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ad977da97e740014c8ba3e5cbe05a732, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3e04668a307bce04589630fdd12a4f52, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ce43f1f95720a1a42862d47c524ae44a, type: 2}

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41cac2c7eabcb4149a6c10a0cd572ddb, type: 3}
+  m_Name: DefaultPlayer
+  m_EditorClassIdentifier: 
+  speed: 2
+  baseHealth: 115
+  baseAttack: 115
+  baseDefense: 115
+  baseStatAverage: 115
+  adjustedBaseHealth: 115
+  adjustedBaseAttack: 115
+  adjustedBaseDefense: 115
+  graphicsObject: {fileID: 7645307636275469476, guid: aec053777104ef745a3d7ff9ea86a2c8, type: 3}
+  characterType: 0
+  attackSO: {fileID: 11400000, guid: 10f960364cf060c46a7d476e635cb49a, type: 2}
+  healthBar: {fileID: 6918876304613369766, guid: 144b6f5acb4616644bb8a066dc79186c, type: 3}
+  deathEffect: {fileID: 1882714921673405212, guid: 2c021a5d48eef064c91bb02e7eca4560, type: 3}
+  healthIV: 0
+  attackIV: 0
+  defenseIV: 0
+  allSkillBoosts:
+  - {x: 20, y: 20, z: 20}
+  healthSkillBoosts: 0a00000014000000
+  attackSkillBoosts: 0a00000014000000
+  defenseSkillBoosts: 0a00000014000000
+  experienceMultiplierUpgrades:
+  - 0.5
+  - 0.25
+  defaultPassiveHealPercent: 2
+  passiveHealUpgrades:
+  - 1
+  - 2
+  projectileAimDot: {fileID: 8227601743707921164, guid: 8d140b8de995a604bb8a02418a7520ea, type: 3}
+  distanceBetweenDots: 0.25
+  numberOfDots: 20
+  movementKeyCode: 323
+  attackKeyCode: 324

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c9936563862f348bc2f25d9ae0142a, type: 3}
+  m_Name: NeckAttack
+  m_EditorClassIdentifier: 
+  power: 25
+  attacker: 1
+  graphicsObject: {fileID: 7285632701444669895, guid: ea931c9eff5372b439adaf2ee74ac231, type: 3}
+  attackType: 1
+  uiObjects: []
+  attackObject: {fileID: 731475955268204515, guid: ad39795e1808645469050fb524b9446a, type: 3}
+  cooldown: 2
+  attackStartDelay: 0.1
+  speed: 15
+  knockback: 2.5
+  deathEffect: {fileID: 1882714921673405212, guid: 4717969694d0ae44788b826ebf2748f8, type: 3}
+  spawnEffect: {fileID: 0}
+  projectile: {fileID: 5318863188790235861, guid: f557853744977d34dacd7a032bd11f29, type: 3}

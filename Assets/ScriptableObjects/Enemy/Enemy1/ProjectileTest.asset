@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c9936563862f348bc2f25d9ae0142a, type: 3}
+  m_Name: ProjectileTest
+  m_EditorClassIdentifier: 
+  power: 20
+  attack: 10
+  level: 1
+  attacker: 1
+  graphicsObject: {fileID: 7285632701444669895, guid: b642f1de93c44b84483f73d7c1b3fb4b, type: 3}
+  attackType: 1
+  uiObjects:
+  - {fileID: 7050365175861637251, guid: d7bf3d07ed308f34797b1454925b0253, type: 3}
+  attackObject: {fileID: 731475955268204515, guid: ad39795e1808645469050fb524b9446a, type: 3}
+  cooldown: 2
+  attackStartDelay: 0.5
+  speed: 15
+  knockback: 2.5
+  deathEffect: {fileID: 1882714921673405212, guid: b7b61bb2f89f59d488ed5288a9bfbd7b, type: 3}
+  spawnEffect: {fileID: 0}
+  projectile: {fileID: 5318863188790235861, guid: f557853744977d34dacd7a032bd11f29, type: 3}

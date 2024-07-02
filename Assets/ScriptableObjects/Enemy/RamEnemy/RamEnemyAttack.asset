@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42ab684394dad934a920c7044c1b260d, type: 3}
+  m_Name: RamEnemyAttack
+  m_EditorClassIdentifier: 
+  power: 15
+  playerPowerUpgrades: 
+  attacker: 1
+  graphicsObject: {fileID: 3770866082186194499, guid: 392d6f1001ea9624a9b0c190513dc19a, type: 3}
+  attackType: 2
+  uiObjects: []
+  attackObject: {fileID: 292635826464186968, guid: 912dad73cf0095442af5d24f3d7f8b5a, type: 3}
+  cooldown: 1.5
+  playerCooldownUpgrades: []
+  attackStartDelay: 0.5
+  dashSpeed: 20
+  dashTime: 0.5
+  knockback: 20
+  dashSprite: {fileID: 0}

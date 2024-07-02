@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8418459b495f29444b7c7b2c74a88951, type: 3}
+  m_Name: CrystalBossShockwaveAttack
+  m_EditorClassIdentifier: 
+  power: 30
+  playerPowerUpgrades: 
+  attacker: 1
+  graphicsObject: {fileID: 0}
+  attackType: 6
+  uiObjects: []
+  attackObject: {fileID: 1485279569016452628, guid: 8b444869dcdb0384cad4dc4bd8fcf845, type: 3}
+  cooldown: 0
+  playerCooldownUpgrades: []
+  attackStartDelay: 1.1
+  knockback: 20
+  shockwaveEffectPrefab: {fileID: 7503233647755934329, guid: 0cd7eb2a775910c43bcfd0dbdedb09a0, type: 3}

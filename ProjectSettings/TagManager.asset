@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SpawnPoint
+  - Rooms
+  - MovementJoystick
+  - MainCanvas
+  - ProjectileJoystick
+  - AbilityCanvas
+  - PlayerGraphics
+  - EnemyGraphics
+  - NoticeEffectSpawnPoint
+  - HealthBarSpawnPoint
+  - FirePoint
+  - MeleeSpawnPoint
+  - EnemyHead
+  - MultiFirePoint
+  - XeroSwordDefaultPoint
+  - PlayerCrown
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Walls
+  - Player
+  - Non-wall-colliding Enemy Parts
+  - DeathEffects
+  - Enemy
+  - RoomObjects
+  - Pickups
+  - NoPPRoomObjects
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1435229537
+    locked: 0
+  - name: Environment
+    uniqueID: 2872213457
+    locked: 0
+  - name: Midground
+    uniqueID: 1620721973
+    locked: 0
+  - name: Foreground
+    uniqueID: 1901349261
+    locked: 0

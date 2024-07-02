@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6985c36ec7866f4f8a90e370f0b0e44, type: 3}
+  m_Name: SpikeBossBurst
+  m_EditorClassIdentifier: 
+  power: 40
+  playerPowerUpgrades: 
+  attacker: 1
+  graphicsObject: {fileID: 0}
+  attackType: 3
+  uiObjects: []
+  attackObject: {fileID: 7191493569016146223, guid: 008b12492fe206a42bad9fb70f052e94, type: 3}
+  cooldown: 0.1
+  playerCooldownUpgrades: []
+  attackStartDelay: 0
+  knockbackForce: 10

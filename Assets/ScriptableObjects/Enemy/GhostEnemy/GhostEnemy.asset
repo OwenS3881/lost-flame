@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc34aae6dc60f834db2deb84b09e6c34, type: 3}
+  m_Name: GhostEnemy
+  m_EditorClassIdentifier: 
+  speed: 1.75
+  baseHealth: 42
+  baseAttack: 66
+  baseDefense: 59
+  baseStatAverage: 55.666668
+  adjustedBaseHealth: 42
+  adjustedBaseAttack: 66
+  adjustedBaseDefense: 59
+  graphicsObject: {fileID: 5936602682594066410, guid: c090bde90e4eb4c46aae7361ad1f6351, type: 3}
+  characterType: 1
+  attackSO: {fileID: 11400000, guid: 4c0dc41ec8f67864cabf12e103fe6cbc, type: 2}
+  healthBar: {fileID: 2357814357123811328, guid: 2ee3ac59648b9a244bf0bb28df4f79db, type: 3}
+  deathEffect: {fileID: 5423566660148445351, guid: 4b7d10239224c84418ea23146e0dae39, type: 3}
+  enemyScript: {fileID: 3899045021536967661, guid: eb50d79cea0e0294f947d1701dcdb01d, type: 3}
+  flipDeathEffect: 1
+  baseExperienceYield: 80
+  experienceParticle: {fileID: 478923947973337864, guid: 8a0c1280e877d22488af3ed45d540fdd, type: 3}
+  numberOfExperienceParticles: {x: 3, y: 5}
+  statPickups:
+  - {fileID: 8463092124027960627, guid: 32cec5f882b8e78478ea64bffbee8f4d, type: 3}
+  statPickupProbability: 29.3
+  maxStatPickups: 2
+  stopMovingDistance: -1
+  playerNoticeDistance: 4
+  lossInterestDistance: 12
+  nextWaypointDistance: 1
+  pathUpdateRate: 0.1
+  idleSpeed: 0.25
+  idleAnimSpeed: 1
+  moveAnimSpeed: 1
+  noticeEffect: {fileID: 7002290527278360730, guid: c98794509385724478360aed0fc567e1, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  noticeRange: 360

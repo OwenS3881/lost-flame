@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a389e895e9e2a2940b856925124c268b, type: 3}
+  m_Name: BoomerangAttackDefault
+  m_EditorClassIdentifier: 
+  power: 20
+  playerPowerUpgrades: 0a0000000f000000
+  attacker: 0
+  graphicsObject: {fileID: 7285632701444669895, guid: 3be4b031351dd484b9c3762fa22be825, type: 3}
+  attackType: 7
+  uiObjects:
+  - {fileID: 7050365175861637251, guid: 601c0d9276a170c43a350aad8b49a071, type: 3}
+  attackObject: {fileID: 1143612076383777340, guid: 76591a3bbec0b3f49a7eedad7c5c7c12, type: 3}
+  cooldown: 1
+  playerCooldownUpgrades:
+  - 0.5
+  attackStartDelay: 0
+  speed: 10
+  returnSpeed: 2.5
+  knockback: 5
+  returnTime: 0.5
+  turnTime: 0.5
+  decayTime: 5
+  aggressiveReturnDistance: 1
+  hasReturnedDistance: 0.5
+  shrinkTime: 0.25
+  boomerang: {fileID: 5318863188790235861, guid: df807cd59c6fde34d880c2ed901d74b8, type: 3}

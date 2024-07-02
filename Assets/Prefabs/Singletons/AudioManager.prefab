@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7466714850461764187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7466714850461764185}
+  - component: {fileID: 7466714850461764186}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7466714850461764185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7466714850461764187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7466714850461764186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7466714850461764187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40cb685eba9f41c489c177e79262e903, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Song1
+    clip: {fileID: 8300000, guid: b0d79ace733e086499ea1f2089a1aa3a, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 1
+    playOnAwake: 1
+    isSong: 1
+    source: {fileID: 0}
+  - name: BossTheme
+    clip: {fileID: 8300000, guid: 4427abc1412e2bd46b7a8dbcfbbaab8d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    isSong: 1
+    source: {fileID: 0}
+  - name: WinSound
+    clip: {fileID: 8300000, guid: e45a3cb7772da8a449e8752a1f84ccb4, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: ProjectileShoot
+    clip: {fileID: 8300000, guid: 36f49b1b09a899f4385b23492876ab11, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: Hurt
+    clip: {fileID: 8300000, guid: d0779f5f367038346813511ba8accc1a, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: Shockwave
+    clip: {fileID: 8300000, guid: 7a3296773006d02409273c2952882c2a, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: Pickup
+    clip: {fileID: 8300000, guid: a9dc9a323bbe42d40adfbef3bd1a6712, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: Dash
+    clip: {fileID: 8300000, guid: f197aba5e08ac76458a2e9d7af348092, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: Melee
+    clip: {fileID: 8300000, guid: cb209242aeb6d2340b9e08b217b7fefa, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: HealAbility
+    clip: {fileID: 8300000, guid: 8372c6dd646a9234c852020d52c95341, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: LevelUp
+    clip: {fileID: 8300000, guid: 3fe833fe866c17447a3016c0ea137fc2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: ButtonPress
+    clip: {fileID: 8300000, guid: d6eb41f90c2e1fc4d855f52210296123, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: GateClose
+    clip: {fileID: 8300000, guid: 41df601db2a3b9947bd97a47e4f45305, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: BossDeath
+    clip: {fileID: 8300000, guid: 54aa9b17ba63b534b9d0daf58defab9d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: f63bb7cc67b7a2f47a065799a8c101da, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: DeathSceneEnter
+    clip: {fileID: 8300000, guid: 82f36624a34c0134793ad43326e8506a, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: PerformanceStat
+    clip: {fileID: 8300000, guid: 678a96bda208a3446a347f4fe4d80533, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: ScoreReveal
+    clip: {fileID: 8300000, guid: e87c15adf7ce4274499f240e83934f55, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  - name: TreasureOpen
+    clip: {fileID: 8300000, guid: b9f862f87ff14e04b84941cfda01ffe1, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    isSong: 0
+    source: {fileID: 0}
+  activeSong: 

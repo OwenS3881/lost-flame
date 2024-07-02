@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ced7e1de9f83dc4cbff8738368b5e17, type: 3}
+  m_Name: MultiShotEnemyAttack
+  m_EditorClassIdentifier: 
+  power: 5
+  playerPowerUpgrades: 
+  attacker: 1
+  graphicsObject: {fileID: 6181517762548646748, guid: 140328659aa9f954cb9dc0aeffa43bf6, type: 3}
+  attackType: 5
+  uiObjects: []
+  attackObject: {fileID: 8613814867661932828, guid: ea2d8c303ed520740997c3dde3ee86b0, type: 3}
+  cooldown: 3
+  playerCooldownUpgrades: []
+  attackStartDelay: 0.1
+  speed: 10
+  knockback: 0
+  deathEffect: {fileID: 3501219358645117210, guid: a9e41443dd1e6f24f9d6b45c1b30c571, type: 3}
+  spawnEffect: {fileID: 0}
+  projectile: {fileID: 5318863188790235861, guid: f557853744977d34dacd7a032bd11f29, type: 3}
